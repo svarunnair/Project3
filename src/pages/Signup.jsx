@@ -38,7 +38,7 @@ function Signup() {
             setLoading(false)
             setData(res.data)
             console.log(res.data)
-           navigate('/sign')
+           navigate('/signin')
            
           })
           

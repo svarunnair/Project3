@@ -47,11 +47,15 @@ function Signin() {
     }
 
 
+    console.log(data,'data')
+
+
 
     
 
   return (
     <div>
+      <h1>Sign In</h1>
 
         <input onChange={handleEmail} placeholder='Email'/><br/>
         <input onChange={handlePassword} placeholder='Password'/><br/>
